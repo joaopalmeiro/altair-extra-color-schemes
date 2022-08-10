@@ -5,3 +5,4 @@ dist/
 
 poetry.lock
 formatter.jinja
+formatter.html

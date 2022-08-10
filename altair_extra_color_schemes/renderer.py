@@ -17,14 +17,16 @@ from altair.utils.html import HTML_TEMPLATE_UNIVERSAL
 from altair.vegalite import VEGA_VERSION, VEGAEMBED_VERSION, VEGALITE_VERSION
 from jinja2 import Environment, FileSystemLoader
 
+from .constants import MODE, TEMPLATE_NAME
+
 env = Environment(loader=FileSystemLoader(os.path.dirname(__file__)), auto_reload=False)
 env.globals["ALTAIR_TEMPLATE"] = HTML_TEMPLATE_UNIVERSAL
 
-EXTRA_COLOR_SCHEMES_TEMPLATE = env.get_template("template.jinja")
+EXTRA_COLOR_SCHEMES_TEMPLATE = env.get_template(TEMPLATE_NAME)
 
 # https://github.com/altair-viz/altair/blob/v4.2.0/altair/vegalite/v4/display.py#L76
 extra_color_schemes_renderer = HTMLRenderer(
-    mode="vega-lite",
+    mode=MODE,
     template=EXTRA_COLOR_SCHEMES_TEMPLATE,
     vega_version=VEGA_VERSION,
     vegaembed_version=VEGAEMBED_VERSION,
