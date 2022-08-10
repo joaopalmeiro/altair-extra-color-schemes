@@ -2,6 +2,49 @@
 
 Additional named color schemes for [Altair](https://altair-viz.github.io/) via a custom renderer.
 
+## Quickstart
+
+### Installation
+
+Via [pip](https://pip.pypa.io/):
+
+```bash
+pip install altair-extra-color-schemes
+```
+
+Via [Pipenv](https://pipenv.pypa.io/):
+
+```bash
+pipenv install altair-extra-color-schemes
+```
+
+Via [Poetry](https://python-poetry.org/):
+
+```bash
+poetry add altair-extra-color-schemes
+```
+
+Via [PDM](https://pdm.fming.dev/):
+
+```bash
+pdm add altair-extra-color-schemes
+```
+
+Via [Pyflow](https://github.com/David-OConnor/pyflow):
+
+```bash
+pyflow install altair-extra-color-schemes
+```
+
+### Usage
+
+```python
+import altair as alt
+alt.renderers.enable("extra_color_schemes")
+```
+
+You can find some example charts in the [`demo.ipynb` notebook](demo.ipynb).
+
 ## Color schemes
 
 | Color scheme name | Source                                                                                                | Notes                                    |
