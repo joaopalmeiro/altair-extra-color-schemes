@@ -55,6 +55,8 @@ You can find some example charts in the [`demo.ipynb` notebook](demo.ipynb).
 
 > [Poetry](https://python-poetry.org/) (version 1.2.0b3)
 
+Add new color schemes to the `altair_extra_color_schemes/full_template.jinja` file
+
 - `poetry config virtualenvs.in-project true`
 - `poetry install`
 - `poetry run jupyter lab`
