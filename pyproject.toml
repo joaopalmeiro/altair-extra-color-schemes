@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "altair-extra-color-schemes"
-version = "0.0.1"
+version = "0.1.0"
 description = "Additional named color schemes for Altair via a custom renderer."
 license = "MIT"
 authors = ["João Palmeiro <joaopalmeiro@proton.me>"]
