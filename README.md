@@ -73,4 +73,11 @@ You can find some example charts in the [`demo.ipynb` notebook](demo.ipynb).
   - `djlint altair_extra_color_schemes/template.jinja --check`
   - `djlint altair_extra_color_schemes/template.jinja --reformat`
   - `djlint altair_extra_color_schemes/template.jinja --profile=jinja`
+  - `djlint formatter.jinja --reformat --format-css --format-js`
 - [Default color schemes](https://vega.github.io/vega-lite/docs/scale.html#scheme)
+- [DjHTML](https://github.com/rtts/djhtml):
+  - `pipx install djhtml`
+  - `djhtml -i formatter.html`
+- [curlylint](https://www.curlylint.org/):
+  - `pipx install curlylint`
+  - `curlylint altair_extra_color_schemes/full_template.jinja`
