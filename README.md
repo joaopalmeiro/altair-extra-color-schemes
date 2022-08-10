@@ -47,9 +47,9 @@ You can find some example charts in the [`demo.ipynb` notebook](demo.ipynb).
 
 ## Color schemes
 
-| Color scheme name | Source                                                                                                | Notes                                    |
-| ----------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| `"dvs"`           | [Data Visualization Standards (DVS)](https://xdgov.github.io/data-design-standards/components/colors) | "Qualitative Colors" > "Example Palette" |
+| Color scheme name | Source                                                                                                | Notes                                                          |
+| ----------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| `"dvs"`           | [Data Visualization Standards (DVS)](https://xdgov.github.io/data-design-standards/components/colors) | "Featured Colors" and "Qualitative Colors" > "Example Palette" |
 
 ## Development
 
@@ -73,3 +73,4 @@ You can find some example charts in the [`demo.ipynb` notebook](demo.ipynb).
   - `djlint altair_extra_color_schemes/template.jinja --check`
   - `djlint altair_extra_color_schemes/template.jinja --reformat`
   - `djlint altair_extra_color_schemes/template.jinja --profile=jinja`
+- [Default color schemes](https://vega.github.io/vega-lite/docs/scale.html#scheme)
