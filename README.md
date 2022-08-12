@@ -83,3 +83,4 @@ Add new color schemes to the `altair_extra_color_schemes/full_template.jinja` fi
 - [curlylint](https://www.curlylint.org/):
   - `pipx install curlylint`
   - `curlylint altair_extra_color_schemes/full_template.jinja`
+- [Cloudscape Design System](https://www.figma.com/community/file/1130789169293366599) (Figma file)
