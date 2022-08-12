@@ -47,9 +47,9 @@ You can find some example charts in the [`demo.ipynb` notebook](demo.ipynb).
 
 ## Color schemes
 
-| Color scheme name | Source                                                                                                | Notes                                                          |
-| ----------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| `"dvs"`           | [Data Visualization Standards (DVS)](https://xdgov.github.io/data-design-standards/components/colors) | "Featured Colors" and "Qualitative Colors" > "Example Palette" |
+| Color scheme name | [Type](https://vega.github.io/vega/docs/schemes/) | Source                                                                                                | Notes                                                          |
+| ----------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| `"dvs"`           | Categorical                                       | [Data Visualization Standards (DVS)](https://xdgov.github.io/data-design-standards/components/colors) | "Featured Colors" and "Qualitative Colors" > "Example Palette" |
 
 ## Development
 
