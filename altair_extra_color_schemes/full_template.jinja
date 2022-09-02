@@ -36,16 +36,17 @@
     }
     function displayChart(vegaEmbed) {
       // Add additional color schemes here:
-      vega.scheme("dvs", [
-        // "#26C6DA",
-        "#0095A8",
-        "#112E51",
-        "#FF7043",
-        "#78909C",
-        "#2E78D2",
-        "#006C7A",
-        "#FFBEA9",
-      ]);
+      vega.scheme("dvs") ??
+        vega.scheme("dvs", [
+          // "#26C6DA",
+          "#0095A8",
+          "#112E51",
+          "#FF7043",
+          "#78909C",
+          "#2E78D2",
+          "#006C7A",
+          "#FFBEA9",
+        ]);
 
       vegaEmbed(outputDiv, spec, embedOpt).catch((err) =>
         showError(

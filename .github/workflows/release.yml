@@ -1,3 +1,6 @@
+# https://python-poetry.org/docs/#installation
+# curl -sSL https://install.python-poetry.org | python3 - --preview
+
 name: Release
 
 on:
@@ -24,7 +27,7 @@ jobs:
 
       - name: Install Poetry
         run: |
-          curl -sSL https://install.python-poetry.org | python3 - --preview
+          curl -sSL https://install.python-poetry.org | python3 - --version 1.2.0
           poetry --version
       - name: Build the package
         run: |

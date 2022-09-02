@@ -1,4 +1,6 @@
 {
   "python.linting.flake8Path": "${workspaceFolder}/.venv/bin/flake8heavened",
-  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python"
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+
+  "git.enabled": true
 }

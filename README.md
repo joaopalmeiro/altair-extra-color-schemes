@@ -53,7 +53,9 @@ You can find some example charts in the [`demo.ipynb` notebook](demo.ipynb).
 
 ## Development
 
-> [Poetry](https://python-poetry.org/) (version 1.2.0b3)
+<!-- > [Poetry](https://python-poetry.org/) (version 1.2.0b3) -->
+
+> [Poetry](https://python-poetry.org/) (version 1.2.0)
 
 Add new color schemes to the `altair_extra_color_schemes/full_template.jinja` file
 
@@ -84,3 +86,8 @@ Add new color schemes to the `altair_extra_color_schemes/full_template.jinja` fi
   - `pipx install curlylint`
   - `curlylint altair_extra_color_schemes/full_template.jinja`
 - [Cloudscape Design System](https://www.figma.com/community/file/1130789169293366599) (Figma file)
+- Poetry:
+  - [Detection of the currently active Python (experimental)](https://python-poetry.org/blog/announcing-poetry-1.2.0/#detection-of-the-currently-active-python-experimental) documentation
+  - [Can't install Pandas on Mac M1](https://github.com/pandas-dev/pandas/issues/40611) issue
+- `pip --version`
+- [Nullish coalescing operator (??): Short-circuiting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator#short-circuiting)
